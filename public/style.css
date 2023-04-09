@@ -1,0 +1,85 @@
+body
+{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: rgba(220, 210, 210, 0.2);
+}
+
+.main-section {
+    width: 100%;
+    padding: 5%;
+}
+input {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(1, 11, 46, 0.2) !important;
+    border-radius: 3px !important;
+    height: 45px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #010B2E;
+}
+input:focus {
+    border: 0px solid #6bb1d6 !important;
+}
+.dataTables_wrapper .dataTables_filter input:focus {   
+    border: 2px solid #6bb1d6 !important;
+}
+input:focus-visible {
+    outline: none;
+}
+.list-view {
+    box-shadow: 6px 6px 20px lightblue;
+    padding: 1rem;
+    border-radius: 25px;
+    background: #fff;
+}
+.headerAdd .view,
+.list-view .add .link a{
+    float: right;
+    width: 130px;
+    height: 40px;
+    font-weight: 700;
+    background: #5f9cbc;
+    color: #ffffff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 4px solid #6bb1d6;
+}
+
+.list-view .add .link a:hover{
+  background: #5f9bbc6c;
+  color: #000;
+}
+.dataTables_length {
+    display: none;
+}
+.dataTables_wrapper .dataTables_filter {
+    float: left;
+}
+.dataTables_wrapper .dataTables_filter label{
+    font-size: 16px;
+}
+.paginate_button{
+    background: rgb(95 156 188 / 20%) !important;
+    border-radius: 12px !important;
+}
+table.dataTable thead th, table.dataTable thead td,
+table.dataTable.no-footer {
+    border-bottom: 1px solid rgb(95 156 188 / 50%) !important;
+}
+table.dataTable thead>tr>th.sorting:before, table.dataTable thead>tr>th.sorting_asc:before,
+table.dataTable thead>tr>th.sorting:after, table.dataTable thead>tr>th.sorting_asc:after{
+    color: #5f9cbc !important;
+}
+.headerAdd {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid rgb(95 156 188 / 50%) !important;
+}
+label.error {
+    color: #dc3545;
+    font-size: 14px;
+}
